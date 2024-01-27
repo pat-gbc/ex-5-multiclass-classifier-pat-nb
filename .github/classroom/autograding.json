@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "multiclass_model_test.py",
+      "setup": "sudo -H pip3 install pytest tensorflow-cpu",
+      "run": "pytest multiclass_model_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
